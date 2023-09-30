@@ -1,0 +1,83 @@
+seletor{
+    propriedade:valor;
+    propriedade:valor;
+    propriedade:valor;
+
+}
+body{
+margin: 0;
+font-family: 'Roboto', sans-serif;
+background-color: #e651c5; /*Cor de fundo*/
+}
+ img{
+     width: 100px;
+     border-radius: 50px;
+ }
+
+div{
+    background-color: #e08eba;
+    width: 340px; /*Largura*/
+    height: auto ;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+    padding:30px ;
+    border-radius: 10px;
+}
+h1{
+    color: #810EA7;
+    font-size: 40px;
+    margin: 0;
+}
+
+ h2{
+    color: #BA349D;
+    font-size: 20px;
+    margin: 0;
+}
+
+p{
+    color: #5b5959;
+    font-size: 16px; /* Valor Inicial*/
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+/* Formatando todos os links que estão dentro do <ul>*/
+ul a{
+    background-color: #ffffff;
+    display: block;
+    margin-bottom: 5px; 
+    padding: 10px; 
+    border-radius: 3px;
+    text-decoration: none;
+}
+/* Hover- Ao passar o mouse no seletor*/
+ul a:hover{
+    background-color: #BA349D;
+    color: #810EA7;
+
+}
+
+
+/* Media Queries
+Condicionais para o css ser aplicado/*
+/* Se a tela for até 500px*/
+/* Se a tela for de até 500px */
+@media (max-width: 500px){
+
+    div{
+        width: 300px
+        padding: 15px;;
+    }
+    img{
+        width: 80px;
+    }
+    h1{
+        front: size 28px;
+    }
+}
